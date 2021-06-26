@@ -1,0 +1,18 @@
+{
+    "packages": [
+        "packages/*"
+    ],
+    "version": "4.0.11",
+    "command": {
+        "publish": {
+            "registry": "https://artifactory.sdo.leidos.com/artifactory/api/npm/msenc2-npm/"
+        },
+        "version": {
+            "allowBranch": [
+                "master",
+                "rkesters/*"
+            ]
+        }
+    }
+    
+}

@@ -1,0 +1,22 @@
+{
+	"id": "5ceeaee3-2662-473f-8ef4-f7b6d993b1b4",
+	"name": "fire_api_equipment",
+	"request": {
+		"url": "/fire/api/equipment/",
+		"method": "GET"
+	},
+	"response": {
+		"status": 200,
+		"body": "[{\"id\":3,\"name\":\"MCS C2 Primary\",\"equipmentType\":2,\"description\":\"C2 server\",\"manufacturer\":\"Leidos\",\"model\":\"1\",\"version\":\"1\",\"serialNumber\":\"C2-MCS-1\",\"parentId\":1,\"parentPath\":\"ROOT.1\",\"createdAt\":\"2021-04-15T17:05:56.108Z\",\"updatedAt\":\"2021-04-15T17:05:56.132Z\",\"hash\":\"fake\"},{\"id\":4,\"name\":\"Primary Radio\",\"equipmentType\":3,\"description\":\"Main Radio\",\"manufacturer\":\"SPECTRA\",\"model\":\"COMSCAN\",\"version\":\"1\",\"serialNumber\":\"SPEC-SDR-1\",\"configuration\":{\"radioType\":\"COMSCAN\",\"canScan\":true},\"parentId\":2,\"parentPath\":\"ROOT.2\",\"createdAt\":\"2021-04-15T17:05:56.108Z\",\"updatedAt\":\"2021-04-15T22:56:46.539Z\",\"hash\":\"1\"}]",
+		"headers": {
+			"X-Powered-By": "Express",
+			"Content-Type": "application/json; charset=utf-8",
+			"ETag": "W/\"26e-QVCYYYCsAjw5VK6R1F3Oa2R4l7A\"",
+			"Date": "Fri, 16 Apr 2021 20:31:44 GMT",
+			"Keep-Alive": "timeout=5"
+		}
+	},
+	"uuid": "5ceeaee3-2662-473f-8ef4-f7b6d993b1b4",
+	"persistent": true,
+	"insertionIndex": 3
+}

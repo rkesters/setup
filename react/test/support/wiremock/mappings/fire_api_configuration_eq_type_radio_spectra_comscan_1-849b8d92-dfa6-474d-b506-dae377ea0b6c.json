@@ -1,0 +1,22 @@
+{
+	"id": "849b8d92-dfa6-474d-b506-dae377ea0b6c",
+	"name": "fire_api_configuration_eq_type_radio_spectra_comscan_1",
+	"request": {
+		"url": "/fire/api/configuration/EQ_TYPE_RADIO/SPECTRA/COMSCAN/1/",
+		"method": "GET"
+	},
+	"response": {
+		"status": 200,
+		"body": "[{\"id\":1,\"equipmentType\":3,\"manufacturer\":\"SPECTRA\",\"model\":\"COMSCAN\",\"version\":\"1\",\"label\":\"Spectranetix COMSCAN\",\"createdAt\":\"2021-04-15T17:05:56.282Z\",\"updatedAt\":\"2021-04-15T17:05:56.282Z\",\"hash\":\"fake\",\"entities\":[{\"name\":\"INET4_COMM_METHOD\",\"label\":\"Command Address\",\"description\":\"Communication over IPv4\",\"isBranded\":true,\"brandedValue\":\"1\",\"createdAt\":\"2021-04-15T17:05:56.251Z\",\"updatedAt\":\"2021-04-15T17:05:56.251Z\",\"hash\":\"fake\",\"brandedProperty\":2,\"properties\":[{\"createdAt\":\"2021-04-15T17:05:56.247Z\",\"description\":\"IPv4 Address for host\",\"hash\":\"fake\",\"id\":1,\"label\":\"IP Address\",\"name\":\"INET4_ADDRESS\",\"updatedAt\":\"2021-04-15T17:05:56.247Z\",\"dataType\":{\"id\":1,\"name\":\"xsd:string\",\"label\":\"string\",\"description\":\"a string\",\"createdAt\":\"2021-04-15T17:05:56.156Z\",\"updatedAt\":\"2021-04-15T17:05:56.156Z\",\"hash\":\"fake\"}},{\"createdAt\":\"2021-04-15T17:05:56.247Z\",\"description\":\"IPv4 Address for host\",\"hash\":\"fake\",\"id\":2,\"label\":\"Communication Method\",\"name\":\"COMM_METHOD\",\"updatedAt\":\"2021-04-15T17:05:56.247Z\",\"concept\":{\"id\":1,\"name\":\"commType\",\"label\":\"Comm Type\",\"description\":\"List of all allowed communication types\",\"createdAt\":\"2021-04-15T17:05:56.210Z\",\"updatedAt\":\"2021-04-15T17:05:56.210Z\",\"hash\":\"fake\",\"concepts\":[{\"id\":1,\"name\":\"INET4\",\"label\":\"IPv4\",\"description\":\"Communication via IP version 4\",\"createdAt\":\"2021-04-15T17:05:56.214Z\",\"updatedAt\":\"2021-04-15T17:05:56.214Z\",\"hash\":\"fake\"}]}}]},{\"name\":\"INET4_COMM_METHOD\",\"label\":\"Data Address\",\"description\":\"Communication over IPv4\",\"isBranded\":true,\"brandedValue\":\"1\",\"createdAt\":\"2021-04-15T17:05:56.251Z\",\"updatedAt\":\"2021-04-15T17:05:56.251Z\",\"hash\":\"fake\",\"brandedProperty\":2,\"properties\":[{\"createdAt\":\"2021-04-15T17:05:56.247Z\",\"description\":\"IPv4 Address for host\",\"hash\":\"fake\",\"id\":1,\"label\":\"IP Address\",\"name\":\"INET4_ADDRESS\",\"updatedAt\":\"2021-04-15T17:05:56.247Z\",\"dataType\":{\"id\":1,\"name\":\"xsd:string\",\"label\":\"string\",\"description\":\"a string\",\"createdAt\":\"2021-04-15T17:05:56.156Z\",\"updatedAt\":\"2021-04-15T17:05:56.156Z\",\"hash\":\"fake\"}},{\"createdAt\":\"2021-04-15T17:05:56.247Z\",\"description\":\"IPv4 Address for host\",\"hash\":\"fake\",\"id\":2,\"label\":\"Communication Method\",\"name\":\"COMM_METHOD\",\"updatedAt\":\"2021-04-15T17:05:56.247Z\",\"concept\":{\"id\":1,\"name\":\"commType\",\"label\":\"Comm Type\",\"description\":\"List of all allowed communication types\",\"createdAt\":\"2021-04-15T17:05:56.210Z\",\"updatedAt\":\"2021-04-15T17:05:56.210Z\",\"hash\":\"fake\",\"concepts\":[{\"id\":1,\"name\":\"INET4\",\"label\":\"IPv4\",\"description\":\"Communication via IP version 4\",\"createdAt\":\"2021-04-15T17:05:56.214Z\",\"updatedAt\":\"2021-04-15T17:05:56.214Z\",\"hash\":\"fake\"}]}}]}],\"equipment_type\":{\"id\":3,\"name\":\"EQ_TYPE_RADIO\",\"label\":\"Radio\",\"description\":\"Equipment type for Generic RADIO\",\"createdAt\":\"2021-04-15T17:05:56.074Z\",\"updatedAt\":\"2021-04-15T17:05:56.074Z\",\"hash\":\"fake\"}}]",
+		"headers": {
+			"X-Powered-By": "Express",
+			"Content-Type": "application/json; charset=utf-8",
+			"ETag": "W/\"b0c-xsZI10xvasCwBROsMUUmXiDDiu0\"",
+			"Date": "Fri, 16 Apr 2021 20:31:44 GMT",
+			"Keep-Alive": "timeout=5"
+		}
+	},
+	"uuid": "849b8d92-dfa6-474d-b506-dae377ea0b6c",
+	"persistent": true,
+	"insertionIndex": 4
+}

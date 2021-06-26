@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "commonjs",
+        "target": "ES2017",
+        "lib": ["es2017"],
+        "allowJs": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "forceConsistentCasingInFileNames": true,
+        "inlineSourceMap": true,
+        "declaration": true,
+        "esModuleInterop": true,
+    },
+    "exclude": ["./dist", "./test/**/*.ts", "./src/**/__mocks__/**"],
+    "include": ["./**/*.ts", "./**/*.d.ts"]
+}

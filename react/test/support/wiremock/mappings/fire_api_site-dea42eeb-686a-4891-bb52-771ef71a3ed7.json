@@ -1,0 +1,22 @@
+{
+	"id": "dea42eeb-686a-4891-bb52-771ef71a3ed7",
+	"name": "fire_api_site",
+	"request": {
+		"url": "/fire/api/site/",
+		"method": "GET"
+	},
+	"response": {
+		"status": 200,
+		"body": "[{\"equipmentId\":1,\"siteId\":1,\"name\":\"MCS\",\"equipmentType\":1,\"serialNumber\":\"MCS-1\",\"version\":\"1\",\"description\":\"Robert House\",\"manufacturer\":\"Leidos\",\"model\":\"1\",\"siteType\":\"MCS\",\"lifecycle\":\"active\",\"state\":\"off\",\"location\":\"POINT (-78.98397 35.975074)\",\"createdAt\":\"2021-04-15T17:05:56.081Z\",\"updatedAt\":\"2021-04-15T17:05:56.094Z\",\"hash\":\"f35891bd78162e55ca4146774e76b873463e613c73c93dd048068a344d8ae5cb\"},{\"equipmentId\":2,\"siteId\":2,\"name\":\"US-CA-1\",\"equipmentType\":1,\"serialNumber\":\"Field-1\",\"version\":\"1\",\"description\":\"Spectranetics\",\"manufacturer\":\"Leidos\",\"model\":\"1\",\"siteType\":\"Field\",\"lifecycle\":\"active\",\"state\":\"off\",\"location\":\"POINT (-122.09099 37.088864)\",\"antennaType\":\"csa\",\"surveyMode\":\"continous\",\"az\":245.6,\"el\":45.2,\"createdAt\":\"2021-04-15T17:05:56.081Z\",\"updatedAt\":\"2021-04-15T17:05:56.094Z\",\"hash\":\"f35891bd78162e55ca4146774e76b873463e613c73c93dd048068a344d8ae5cb\"}]",
+		"headers": {
+			"X-Powered-By": "Express",
+			"Content-Type": "application/json; charset=utf-8",
+			"ETag": "W/\"37b-1k2OREUbHgjpGyIrOjzMRhdxzBU\"",
+			"Date": "Fri, 16 Apr 2021 20:31:44 GMT",
+			"Keep-Alive": "timeout=5"
+		}
+	},
+	"uuid": "dea42eeb-686a-4891-bb52-771ef71a3ed7",
+	"persistent": true,
+	"insertionIndex": 2
+}

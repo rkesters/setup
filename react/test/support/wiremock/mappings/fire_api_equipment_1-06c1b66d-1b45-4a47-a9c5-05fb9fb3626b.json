@@ -1,0 +1,23 @@
+{
+	"id": "06c1b66d-1b45-4a47-a9c5-05fb9fb3626b",
+	"name": "fire_api_equipment_1",
+	"request": {
+		"url": "/fire/api/equipment/1/",
+		"method": "GET"
+	},
+	"response": {
+		"status": 405,
+		"body": "{\"allowedMethods\":[\"DELETE\",\"PUT\"]}",
+		"headers": {
+			"X-Powered-By": "Express",
+			"Allow": "DELETE, PUT",
+			"Content-Type": "application/json; charset=utf-8",
+			"ETag": "W/\"23-uEzJsBX7y1HccdGfO1w8V6HizO8\"",
+			"Date": "Fri, 16 Apr 2021 20:31:44 GMT",
+			"Keep-Alive": "timeout=5"
+		}
+	},
+	"uuid": "06c1b66d-1b45-4a47-a9c5-05fb9fb3626b",
+	"persistent": true,
+	"insertionIndex": 5
+}

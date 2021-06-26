@@ -1,0 +1,19 @@
+#!/bin/bash
+. "$(dirname "$0")/_/husky.sh"
+
+rebasingBranch() {
+    locations=('rebase-merge' 'rebase-apply')
+    for location in "${locations[@]}"; do
+        path=$(git rev-parse --git-path ${location})
+        if test -d ${path}; then
+            revision=$(<${path}/head-name)
+            BRANCHNAME=${revision##refs/heads/}
+            return 0
+        else 
+            BRANCHNAME=$(git branch --show-current)
+        fi
+    done
+}
+
+rebasingBranch
+bash ./.settings/commitMsg.sh $1 $BRANCHNAME
